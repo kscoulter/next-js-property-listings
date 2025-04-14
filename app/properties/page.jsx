@@ -2,7 +2,7 @@ import properties from '@/properties.json'
 import PropertyCard from '@/components/PropertyCard';
 
 const PropertiesPage = () => {
-  console.log(process.env.MONGO_DB_URI)
+  console.log(process.env.MONGODB_URI)
     return (
       <section className='px-4 py-6'>
         <div className='container-xl lg:container m-auto px-4 py-6'>
